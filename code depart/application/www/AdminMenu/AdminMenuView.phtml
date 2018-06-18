@@ -1,0 +1,26 @@
+<h2>ADD CATEGORY</h2>
+<form method="post"  enctype="multipart/form-data">
+  <label for="category-name">category-name</label><input type="text" name="category-name" value="">
+  <label for="category_description">category_description</label><input type="text" name="category_description" value="">
+  <button type="submit" name="category" value="category" >valider</button>
+</form>
+<br>
+<h2>CHANGE CATEGORY</h2>
+<form method="get"  enctype="multipart/form-data">
+  <label for="category-name">category-name</label><input type="text" name="category-name" value="">
+  <button type="input"   value="change_choosen_category">modifier</button>
+</form>
+
+<form method="post"  id="form_modif" enctype="multipart/form-data">
+  <label for="category-name">category-name</label><input type="text" name="category-name" value="" >
+  <label for="category_description">category_description</label><input type="text" name="category_description" value="">
+  <button type="submit" name="category" value="validate_choosen_category" >valider</button>
+</form>
+
+<br>
+<h2>ERASE CATEGORY</h2>
+<form method="post"  enctype="multipart/form-data">
+  <label for="category-name">category-name</label>
+  <input type="text" name="category-name" value="">
+  <button type="submit" name="erase_category" value="erase_category">effacer</button>
+</form>
